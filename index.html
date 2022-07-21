@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html> 
+<title>MELANI |MELANI |MELANI</title><link rel="stylesheet" href="https://use.typekit.net/mbt4tna.css">
+<link rel="stylesheet" href="https://use.typekit.net/bhu4ulz.css">
+
+<div class="comm-wrap">
+  <div class="topimg" style="background-image: url('https://images.unsplash.com/photo-1517639493569-5666a7b2f494')"></div>
+  <div class="charimg" style="background-image: url('https://img.xatblog.net/image/3rL6vhxol.png')">
+    <div class="charon"></div>
+  </div>
+  <div class="charstat">
+    <b>MELANI</b> is online...
+  </div>
+  <div class="charchat">
+    connected: <a href="/">...</a> 
+  </div>
+  <div class="messages">
+    <text>Let my soul be filled with the blessing of joy and peace.
+.</text>
+    <note>sent at 12:32 pm</note>
+    <action>By GROX</action>
+  </div>
+</div>
+<style>
+
+body {
+  padding: 0px;
+  margin: 50px;
+	background-image: url(https://i.imgur.com/ffRKlNq.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+  color: rgba(var(--wine), 1);
+  
+  --mono: 'aglet-mono';
+  --monocaps: 400 10px/10px var(--mono);
+  --serif: 'mrs-eaves-xl-serif';
+  --serif2: 'bookmania';
+  --serif3: 'monarcha';
+  
+  /*COLORS*/
+  --wine: 248, 248, 248; /*F8F8F8*/
+  --purple: 87, 65, 69; /*574145*/
+  --pink: 75,75,75; /*4B4B4B*/
+  --green: 0, 51, 42; /*00332a*/
+  --teal: 39, 98, 87; /*276257*/
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.comm-wrap {
+  width: 100%;
+  max-width: 500px;
+  padding: 100px 12px 12px 12px;
+  margin: 50px auto;
+  background: var(--lg1), rgba(var(--pink));
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, .5);
+}
+
+.comm-wrap .topimg {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: calc(100% - 10px);
+  height: 95px;
+  border-radius: 15px 15px 0px 0px;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  background-position: top center;
+  background-size: cover;
+}
+.comm-wrap .topimg:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+  -webkit-border-radius: 15px 15px 0px 0px;
+  background: rgba(var(--wine), .7);
+  mix-blend-mode: multiply;
+}
+.comm-wrap .topimg:after {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  content: '';
+  width: calc(100% - 14px);
+  height: calc(100% - 7px);
+  border-radius: 12px 12px 0px 0px;
+  -webkit-border-radius: 12px 12px 0px 0px;
+  border: 1px solid rgba(var(--pink), .8);
+  border-bottom: 0px;
+}
+
+.comm-wrap .charimg {
+  position: absolute;
+  top: 75px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  background: rgba(var(--green), 1);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+  border: 1px solid rgba(var(--pink), .5);
+}
+.comm-wrap .charimg:before {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(var(--wine), .2);
+  mix-blend-mode: darken;
+}
+.comm-wrap .charimg .charon {
+  position: absolute;
+  top: 7px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: rgba(var(--teal), 1);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  box-shadow: 0px 0px 3px rgba(var(--pink) ,.9);
+  border: 1px solid rgba(var(--pink), .7);
+}
+
+.comm-wrap .charstat {
+  position: absolute;
+  top: 81px;
+  left: 112px;
+  font: var(--monocaps);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+}
+
+.comm-wrap .charchat {
+  position: absolute;
+  top: 107px;
+  left: 112px;
+  font: italic var(--monocaps);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(var(--pink), .8);
+}
+.comm-wrap .charchat a {
+  font-weight: 600;
+  color: rgba(var(--pink), 1);
+  text-decoration: none;
+}
+
+.comm-wrap .messages {
+  position: relative;
+  padding: 37px;
+  border: 1px solid rgba(var(--pink), .8);
+  border-top: 0px;
+  border-radius: 0px 0px 12px 12px;
+  -webkit-border-radius: 0px 0px 12px 12px;
+  font: 13px/20px var(--serif);
+  letter-spacing: 1px;
+}
+
+.comm-wrap .messages text {
+  display: block;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 15px;
+  margin: 5px 0px;
+  background: rgba(var(--pink), .3);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.comm-wrap .messages action {
+  display: block;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 15px;
+  margin: 5px 0px;
+  background: rgba(var(--pink), .1);
+  border-radius: 0px 10px 10px 0px;
+  color: rgba(var(--pink), .8);
+}
+
+.comm-wrap .messages text:last-child,
+.comm-wrap .messages action:last-child{
+  border-radius: 0px 10px 10px 10px;
+  -webkit-border-radius: 0px 10px 10px 10px;
+}
+
+.comm-wrap .messages note {
+  display: block;
+  margin: 8px;
+  font: italic var(--monocaps);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(var(--pink), .8);
+}
+</style>
+<center><img src="https://i.imgur.com/ldDqrCQ.gif"></center>
